@@ -102,3 +102,15 @@
 @media(prefers-reduced-motion:reduce){
  .nav-label-text,.nav-label-icon{transition-duration:.01ms!important;transform:none!important}
 }
+
+/* Mobile/touch safety: the 1100px compact-nav rule must never hide labels. */
+@media(max-width:900px), (hover:none), (pointer:coarse){
+ .nav-links a{color:var(--text)}
+ .nav-links a>.nav-index{display:inline-block!important;visibility:visible!important;opacity:1!important}
+ .nav-links a>.nav-label-stage{display:grid!important;visibility:visible!important;opacity:1!important;color:var(--text)}
+ .nav-links a .nav-label-text{display:block!important;visibility:visible!important;opacity:1!important;transform:none!important;color:var(--text)}
+ .nav-links a .nav-label-icon{display:none!important;visibility:hidden!important;opacity:0!important;transform:none!important}
+}
+@media(max-width:900px){
+ .locale-ar .nav-links a{justify-content:flex-start;text-align:right}
+}
