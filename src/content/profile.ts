@@ -1,8 +1,8 @@
 import type { Localized } from "./types";
 
 export const profile = {
-  name: { en: "Mahmoud Abdualghani Mohammed Almagrami", ar: "محمود عبدالغني محمد المقرم" } satisfies Localized,
-  displayName: { en: "Mahmoud Almaqrmi", ar: "محمود المقرم" } satisfies Localized,
+  name: { en: "Mahmoud Abdulghani Almaqrami", ar: "محمود عبدالغني المقرمي" } satisfies Localized,
+  displayName: { en: "Mahmoud Abdulghani Almaqrami", ar: "محمود عبدالغني المقرمي" } satisfies Localized,
   title: { en: "Full-Stack Software Engineer", ar: "مهندس برمجيات متكامل" } satisfies Localized,
   focus: { en: "Systems Integration · DevOps · Database Engineering", ar: "تكامل الأنظمة · DevOps · هندسة قواعد البيانات" } satisfies Localized,
   summary: {
