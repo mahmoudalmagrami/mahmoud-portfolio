@@ -118,6 +118,12 @@
 /* Existing project presentation extended for verified public website links. */
 .project-links{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.75rem}
 .live-project-link{color:var(--brand);border-bottom-color:var(--brand)}
+.about-grid{grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr);align-items:start}
+.portrait-slot{position:relative;width:100%;max-width:500px;min-height:0;aspect-ratio:4/5;margin:0;overflow:hidden;background:var(--surface);border:1px solid var(--line);border-radius:24px}
+.profile-portrait-image{object-fit:cover;object-position:50% 50%}
+.about-content{min-width:0}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr}.portrait-slot{width:min(82%,520px);min-height:0;justify-self:center}}
+@media(max-width:560px){.portrait-slot{width:82%;min-height:0;border-radius:20px}}
 .project-live-cta{margin-bottom:3rem;width:max-content}
 .project-details aside .live-project-link{margin-top:1.5rem;width:max-content}
 @media(max-width:560px){
