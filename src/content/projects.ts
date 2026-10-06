@@ -5,6 +5,7 @@ export const projects: Project[] = [
     slug: "shipping-accounting-erp",
     index: "01",
     featured: true,
+    liveUrl: "https://github.com/mahmoudalmagrami/shipping-erp-system",
     category: {
       en: "Enterprise ERP & Logistics",
       ar: "أنظمة إدارة الشحن والمحاسبة"
