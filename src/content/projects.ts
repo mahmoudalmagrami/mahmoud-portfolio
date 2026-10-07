@@ -33,7 +33,7 @@ export const projects: Project[] = [
       "TanStack Query",
       "Zustand"
     ],
-    coverImage: "/projects/enterprise-operations.webp",
+    coverImage: "/projects/shipping-erp.png",
     coverAlt: {
       en: "Executive BI dashboard and operations interface of the Shipping & Accounting ERP.",
       ar: "لوحة المؤشرات التنفيذية وواجهة العمليات لنظام إدارة الشحن والمحاسبة."
