@@ -69,7 +69,7 @@ export const projects: Project[] = [
     slug: "smartnet-mikrotik-erp",
     index: "02",
     featured: true,
-    liveUrl: "https://github.com/mahmoudalmaqrami/smartnet-systemx",
+    liveUrl: "https://github.com/mahmoudalmagrami/smartnet-systemx",
     category: {
       en: "Telecom & ISP Infrastructure",
       ar: "أنظمة إدارة شبكات الإنترنت والاتصالات"
