@@ -66,8 +66,74 @@ export const projects: Project[] = [
     ]
   },
   {
-    slug: "artsy-realm",
+    slug: "smartnet-mikrotik-erp",
     index: "02",
+    featured: true,
+    liveUrl: "https://github.com/mahmoudalmaqrami/smartnet-systemx",
+    category: {
+      en: "Telecom & ISP Infrastructure",
+      ar: "أنظمة إدارة شبكات الإنترنت والاتصالات"
+    },
+    title: {
+      en: "SmartNet - MikroTik ISP & Hotspot ERP v2.0",
+      ar: "نظام إدارة شبكات الإنترنت المحلية والمايكروتك"
+    },
+    summary: {
+      en: "Enterprise ISP & Hotspot infrastructure management platform featuring real-time MikroTik RouterOS API-SSL synchronization, double-entry financial ledger for resellers, encrypted voucher provisioning, captive portal generator, and high-speed POS.",
+      ar: "منصة مؤسسية لإدارة شبكات الإنترنت المحلية وأبراج المايكروتك مع مزامنة لحظية عبر API-SSL، نظام محاسبي مزدوج للوكلاء والموزعين، تشفير وتوليد كروت الهوتسبوت، بوابة مشتركين متجاوبة، ونقطة بيع POS سريعة."
+    },
+    role: {
+      en: "Lead Software Engineer & Systems Architect",
+      ar: "مهندس معماريات برمجية ومطور نظم متكاملة"
+    },
+    technologies: [
+      "Node.js",
+      "TypeScript",
+      "NestJS",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Redis",
+      "RouterOS API",
+      "React 19",
+      "Tailwind CSS",
+      "TanStack Query",
+      "MikroTik HotSpot"
+    ],
+    coverImage: "/projects/network-manager.png",
+    coverAlt: {
+      en: "Real-time dashboard, financial ledger, and router status interface of SmartNet MikroTik ERP.",
+      ar: "لوحة التحكم الحية، السجل المالي، وإدارة راوترات المايكروتك لنظام سمارت نت."
+    },
+    status: {
+      en: "Production-ready ISP management system with RouterOS SSL synchronization, AES-256 voucher encryption, and double-entry financial ledger.",
+      ar: "نظام مؤسسي متكامل ومختبر بالكامل مع مزامنة حية لراوترات المايكروتك وتشفير الكروت وسجل مالي متوازن للوكلاء."
+    },
+    sections: [
+      {
+        title: {
+          en: "RouterOS API-SSL Integration & Voucher Engine",
+          ar: "الربط اللحظي مع خوادم المايكروتك وتوليد الكروت"
+        },
+        body: {
+          en: "Engineered with bidirectional MikroTik RouterOS API-SSL communication. Automatically generates cryptographically strong voucher credentials encrypted with AES-256-GCM, provisions disabled users into MikroTik User Profiles with bandwidth and uptime constraints (hours, days, months, and data limits), and activates them on-demand upon retail sale with instant active session eviction upon card expiration or cancellation.",
+          ar: "مبني مع تكامل ثنائي الاتجاه مع خوادم MikroTik RouterOS عبر API-SSL المشفر. يقوم النظام بتوليد كروت إنترنت مشفرة بـ AES-256-GCM، وحقنها آلياً في بروفايلات المايكروتك مع تحديد السرعات وحصص الوقت والبيانات (بالساعات، الأيام، والشهور)، مع تفعيل فوري عند البيع وإلغاء فوري للجلسات النشطة في الراوتر عند انتهاء الصلاحية أو الحظر."
+        }
+      },
+      {
+        title: {
+          en: "Reseller Ledger, High-Speed POS & Subscriber Portal",
+          ar: "إدارة الوكلاء والتحصيل المالي وبوابة المشتركين"
+        },
+        body: {
+          en: "Comprehensive financial ledger architecture tracking reseller credit limits, prepaid deposits, cash receipt vouchers, and real-time sales margins. Includes an optimized thermal printing POS interface with offline SVG QR code generation, along with a standalone responsive captive portal for end users to verify card status, remaining balance, and data usage.",
+          ar: "معمارية محاسبية متكاملة لمتابعة أرصدة وكلاء التوزيع وسقوف الائتمان وسندات القبض النقدية وهوامش أرباح البيع. يتضمن شاشة نقطة بيع POS سريعة تدعم الطباعة الحرارية وتوليد باركود QR محلي، بالإضافة إلى بوابة مشتركين تفاعلية لفحص رصيد الكرت والوقت المتبقي واستهلاك البيانات."
+        }
+      }
+    ]
+  },
+  {
+    slug: "artsy-realm",
+    index: "03",
     featured: true,
     liveUrl: "https://artsyrealm.com",
     category: { en: "Creative commerce", ar: "متجر للتصاميم الإبداعية" },
@@ -87,7 +153,7 @@ export const projects: Project[] = [
   },
   {
     slug: "najd-alzian",
-    index: "03",
+    index: "04",
     featured: true,
     liveUrl: "https://najdalzian.com/",
     category: { en: "Events and equipment rental", ar: "تجهيز وتأجير مستلزمات المناسبات" },
@@ -107,7 +173,7 @@ export const projects: Project[] = [
   },
   {
     slug: "malak-parties",
-    index: "04",
+    index: "05",
     featured: true,
     liveUrl: "https://malakparties.com/",
     category: { en: "Event services", ar: "خدمات تجهيز المناسبات" },
@@ -127,7 +193,7 @@ export const projects: Project[] = [
   },
   {
     slug: "top-safety",
-    index: "05",
+    index: "06",
     featured: true,
     liveUrl: "https://topsafety.co/",
     category: { en: "Fire safety solutions", ar: "حلول مكافحة الحرائق والسلامة" },
@@ -147,7 +213,7 @@ export const projects: Project[] = [
   },
   {
     slug: "production-data-infrastructure",
-    index: "06",
+    index: "07",
     featured: false,
     category: { en: "Production infrastructure", ar: "بنية إنتاجية" },
     title: { en: "Data infrastructure across nine servers", ar: "بنية بيانات عبر تسعة خوادم" },
@@ -161,7 +227,7 @@ export const projects: Project[] = [
   },
   {
     slug: "postgresql-high-availability",
-    index: "07",
+    index: "08",
     featured: false,
     category: { en: "High availability", ar: "التوافر العالي" },
     title: { en: "PostgreSQL HA & replication", ar: "التوافر العالي والتكرار لـ PostgreSQL" },
@@ -175,7 +241,7 @@ export const projects: Project[] = [
   },
   {
     slug: "smart-library",
-    index: "08",
+    index: "09",
     featured: false,
     category: { en: "University internship", ar: "تدريب جامعي" },
     title: { en: "Smart Library", ar: "المكتبة الذكية" },
